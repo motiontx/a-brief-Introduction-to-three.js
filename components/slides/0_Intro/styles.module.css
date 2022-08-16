@@ -1,0 +1,21 @@
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.threeLogo {
+  width: 16rem;
+  margin-bottom: 1rem;
+}
+
+.hdLogo {
+  height: 1.5rem;
+  margin-right: 0.25rem;
+}
+
+.title {
+  margin-bottom: 2.5rem !important;
+}
