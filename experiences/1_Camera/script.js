@@ -1,5 +1,4 @@
 import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
 
 export const experience = () => {
   // ------------------------------------------------------------
@@ -145,17 +144,6 @@ export const experience = () => {
   // ------------------------------------------------------------
   // Animation
   // ------------------------------------------------------------
-
-  const controlsPerspective = new OrbitControls(
-    perspectiveCamera,
-    rendererPerspective.domElement
-  );
-  controlsPerspective.enableDamping = true;
-
-  const controlsOrthographic = new OrbitControls(
-    orthographicCamera,
-    rendererOrthographic.domElement
-  );
 
   const tick = () => {
     orthographicCamera.position.x += mouseX * 0.001;

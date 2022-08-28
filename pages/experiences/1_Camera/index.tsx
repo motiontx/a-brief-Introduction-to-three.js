@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { experience } from "./script.js";
+import { experience } from "../../../experiences/1_Camera/script";
 
 if (typeof document !== "undefined") {
   experience();

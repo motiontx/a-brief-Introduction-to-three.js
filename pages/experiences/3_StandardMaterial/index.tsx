@@ -1,4 +1,4 @@
-import { experience } from "./script.js";
+import { experience } from "../../../experiences/3_StandardMaterial/script";
 
 if (typeof document !== "undefined") {
   experience();

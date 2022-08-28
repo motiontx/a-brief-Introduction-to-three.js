@@ -1,4 +1,4 @@
-import { experience } from "./script.js";
+import { experience } from "../../../experiences/9_LoadingModel/script";
 
 if (typeof document !== "undefined") {
   experience();

@@ -1,4 +1,4 @@
-import { experience } from "./script.js";
+import { experience } from "../../../experiences/5_PointLight/script";
 
 if (typeof document !== "undefined") {
   experience();
