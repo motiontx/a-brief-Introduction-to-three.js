@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 span {
   color: #30b4a6;
   transition: color 0.15s ease;
@@ -9,4 +13,30 @@ span:hover {
 
 :root {
   --r-main-font-size: 2rem !important;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1;
+}
+
+h4,
+h5,
+h6,
+p,
+small {
+  text-align: left !important;
+}
+
+ul {
+  margin: 0;
+}
+
+pre {
+  width: 100% !important;
 }

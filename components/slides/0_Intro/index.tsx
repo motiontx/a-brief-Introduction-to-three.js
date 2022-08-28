@@ -14,7 +14,7 @@ export const Intro = () => {
         A Brief Introduction to{" "}
         <Link href="https://threejs.org/">Three.js</Link>
       </h2>
-      <h6>
+      <h6 className={styles.author}>
         By{" "}
         <Link href="https://vittoretrivi.dev/">
           <span>Vittorio Retrivi</span>

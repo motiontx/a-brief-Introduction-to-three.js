@@ -1,0 +1,8 @@
+.example {
+  width: 960px;
+  height: 540px;
+  border: 8px solid var(--r-main-color);
+  box-sizing: border-box;
+  background-color: black;
+  border-radius: 1rem;
+}
