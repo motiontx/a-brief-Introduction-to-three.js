@@ -9,8 +9,6 @@ const Experience = ({ experience }: experienceProps) => {
     runExperience(experience);
   }
 
-  console.log("Experience", experience);
-
   return <canvas className="webgl" />;
 };
 
