@@ -34,6 +34,7 @@ const experiences = {
 
 export const runExperience = (experience: string) => {
   if (experience in experiences) {
+    // @ts-ignore
     experiences[experience]();
   }
 };
