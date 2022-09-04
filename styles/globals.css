@@ -16,7 +16,7 @@ span:hover {
 
 :root {
   --r-main-font-size: 2rem !important;
-  --r-background-color: #000;
+  --r-background-color: #000 !important;
 }
 
 .webgl {
