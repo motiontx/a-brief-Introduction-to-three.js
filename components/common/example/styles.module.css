@@ -1,8 +1,54 @@
 .example {
+  width: 956px;
+  height: 536px;
+  box-sizing: border-box;
+  background-color: #000;
+  border: none !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+}
+
+.container {
   width: 960px;
   height: 540px;
-  border: 8px solid var(--r-main-color);
-  box-sizing: border-box;
-  background-color: black;
-  border-radius: 1rem;
+  background-color: #444;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  width: 956px;
+  height: 536px;
+  background-color: #000;
+}
+
+.playButton,
+.pauseButton {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #eee;
+}
+
+.playButton {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 120px;
+  height: 120px;
+}
+
+.pauseButton {
+  top: 0;
+  right: 0;
+  width: 3rem;
+  height: 3rem;
 }

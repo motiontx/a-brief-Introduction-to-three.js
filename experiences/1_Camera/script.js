@@ -126,7 +126,6 @@ export const experience = () => {
   rendererPerspective.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   rendererPerspective.outputEncoding = THREE.sRGBEncoding;
   rendererPerspective.physicallyCorrectLights = true;
-  rendererPerspective.outputEncoding = THREE.sRGBEncoding;
   rendererPerspective.toneMapping = THREE.CineonToneMapping;
   rendererPerspective.toneMappingExposure = 1.4;
 
@@ -137,7 +136,6 @@ export const experience = () => {
   rendererOrthographic.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   rendererOrthographic.outputEncoding = THREE.sRGBEncoding;
   rendererOrthographic.physicallyCorrectLights = true;
-  rendererOrthographic.outputEncoding = THREE.sRGBEncoding;
   rendererOrthographic.toneMapping = THREE.CineonToneMapping;
   rendererOrthographic.toneMappingExposure = 1.4;
 

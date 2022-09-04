@@ -5,7 +5,7 @@ import { Double } from "../../common/double";
 
 const standardMaterialCode = `
 // Geometry
-const sphereGeometry = new THREE.SphereGeometry(0.5, 32, 32);
+const sphereGeometry = new THREE.SphereGeometry(0.5, 384, 384);
 
 // Material
 const sphereMaterial = new THREE.MeshStandardMaterial({
@@ -85,11 +85,13 @@ const environmentMap = cubeTextureLoader.load([
 ]);
 `;
 
-const environmentSetCode = `
+const environmentSet1Code = `
 // Sets the background used when rendering the scene
 scene.background = environmentMap;
+`;
 
-// The texture is set as the environment map for all physical materials in the scene
+const environmentSet2Code = `
+// Sets the texture as the env map for all physical materials in the scene
 scene.environment = environmentMap;
 `;
 
@@ -105,6 +107,7 @@ const ao = textureLoader.load("/assets/textures/bricks/ao.jpg");
 
 const textureMaterialCode = `
 const sphereMaterial = new THREE.MeshStandardMaterial({
+  //color: 0x00caaf,
   //roughness: 0,
   //metalness: 0.75,
 
@@ -145,10 +148,13 @@ export const GoingFurther = () => {
         <Code code={standardMaterialCode} />
       </section>
       <section>
-        <Example experience="3_StandardMaterial" />
+        <Example experience="StandardMaterial" />
       </section>
       <section>
         <h3>Hmm, it&apos;s a bit dark here...</h3>
+      </section>
+      <section>
+        <h3>Let&apos;s add some lights</h3>
       </section>
       <section>
         <h3>💡 Adding a source of light</h3>
@@ -167,7 +173,7 @@ export const GoingFurther = () => {
         <Code code={ambientLightCode} />
       </section>
       <section>
-        <Example experience="4_AmbientLight" />
+        <Example experience="AmbientLight" />
       </section>
       <section>
         <h5>💡 Point Light</h5>
@@ -175,7 +181,7 @@ export const GoingFurther = () => {
         <Code code={pointLightLoopCode} />
       </section>
       <section>
-        <Example experience="5_PointLight" />
+        <Example experience="PointLight" />
       </section>
       <section>
         <h3>Shadows</h3>
@@ -215,7 +221,7 @@ export const GoingFurther = () => {
         <Code code={shadow2Code} />
       </section>
       <section>
-        <Example experience="6_Shadows" />
+        <Example experience="Shadows" />
       </section>
       <section>
         <h3>Adding an environment map</h3>
@@ -225,10 +231,11 @@ export const GoingFurther = () => {
         <h5>1. Loading the environment map texture</h5>
         <Code code={environmentCode} />
         <h5>2. Setting the environment map on the scene</h5>
-        <Code code={environmentSetCode} />
+        <Code code={environmentSet1Code} />
+        <Code code={environmentSet2Code} />
       </section>
       <section>
-        <Example experience="7_EnvironmentMap" />
+        <Example experience="EnvironmentMap" />
       </section>
       <section>
         <h3>Loading Textures</h3>
@@ -241,10 +248,10 @@ export const GoingFurther = () => {
         <Code code={textureMaterialCode} />
       </section>
       <section>
-        <Example experience="8_Textures" />
+        <Example experience="Textures" initialyDisabled />
       </section>
       <section>
-        <Example experience="9_LoadingModel" />
+        <Example experience="LoadingModel" initialyDisabled />
       </section>
     </section>
   );

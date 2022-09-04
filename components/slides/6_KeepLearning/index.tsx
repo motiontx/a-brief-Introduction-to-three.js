@@ -48,7 +48,7 @@ export const KeepLearning = () => {
   return (
     <section>
       <section>
-        <h2>Keep Learning!</h2>
+        <h2>📚 Keep Learning! 📚</h2>
       </section>
       <section>
         <h3>Resources</h3>

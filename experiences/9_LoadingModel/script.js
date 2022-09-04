@@ -40,12 +40,6 @@ export const experience = () => {
   const loader = new THREE.TextureLoader();
 
   const colorST = loader.load("/assets/textures/bricks/color.jpg");
-  const normalST = loader.load("/assets/textures/bricks/normal.jpg");
-  const roughnessST = loader.load("/assets/textures/bricks/roughness.jpg");
-  const displacementST = loader.load(
-    "/assets/textures/bricks/displacement.jpg"
-  );
-  const aoST = loader.load("/assets/textures/bricks/ao.jpg");
 
   colorST.encoding = THREE.sRGBEncoding;
 
@@ -194,7 +188,6 @@ export const experience = () => {
   renderer.physicallyCorrectLights = true;
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-  renderer.outputEncoding = THREE.sRGBEncoding;
   renderer.toneMapping = THREE.CineonToneMapping;
   renderer.toneMappingExposure = 1.4;
 

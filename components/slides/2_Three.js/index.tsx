@@ -45,7 +45,7 @@ export const Three = () => {
         <h3>What is Three.js?</h3>
         <ul>
           <li>
-            Three.js is a JavaScript library under MIT license that{" "}
+            Three.js is a <span>JavaScript library</span> under MIT license that{" "}
             <span>works right above WebGL</span>.
           </li>
           <li>

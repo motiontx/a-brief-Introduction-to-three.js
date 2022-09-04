@@ -150,7 +150,6 @@ export const experience = () => {
   renderer.physicallyCorrectLights = true;
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-  renderer.outputEncoding = THREE.sRGBEncoding;
   renderer.toneMapping = THREE.CineonToneMapping;
   renderer.toneMappingExposure = 1.4;
 

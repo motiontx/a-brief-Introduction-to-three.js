@@ -147,7 +147,7 @@ export const BuildingAScene = () => {
         <Code code={cameraCode} />
       </section>
       <section>
-        <Example experience="1_Camera" />
+        <Example experience="Camera" />
       </section>
       <section>
         <h3>Adding an Object (mesh)</h3>
@@ -243,7 +243,7 @@ export const BuildingAScene = () => {
         <Code code={fullCode} />
       </section>
       <section>
-        <Example experience="2_BasicScene" />
+        <Example experience="BasicScene" />
       </section>
     </section>
   );

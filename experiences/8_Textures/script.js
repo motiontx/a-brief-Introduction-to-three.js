@@ -63,6 +63,7 @@ export const experience = () => {
   // Sphere
   const sphereGeometry = new THREE.SphereGeometry(0.5, 384, 384);
   const sphereMaterial = new THREE.MeshStandardMaterial({
+    //color: 0x00caaf,
     //roughness: 0,
     //metalness: 0.75,
 
@@ -189,7 +190,6 @@ export const experience = () => {
   renderer.physicallyCorrectLights = true;
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-  renderer.outputEncoding = THREE.sRGBEncoding;
   renderer.toneMapping = THREE.CineonToneMapping;
   renderer.toneMappingExposure = 1.4;
 
