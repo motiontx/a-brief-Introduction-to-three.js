@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { Link } from "../../common/link";
 import styles from "./styles.module.css";
 
@@ -54,7 +55,7 @@ export const KeepLearning = () => {
         <h3>Resources</h3>
         <ul>
           {links.map((linkGroup, i) => (
-            <>
+            <Fragment key={i}>
               {linkGroup.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href}>{link.title}</Link>
@@ -72,7 +73,7 @@ export const KeepLearning = () => {
                 </li>
               ))}
               {i < links.length - 1 && <br />}
-            </>
+            </Fragment>
           ))}
         </ul>
       </section>
