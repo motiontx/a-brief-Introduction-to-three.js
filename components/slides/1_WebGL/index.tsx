@@ -25,7 +25,7 @@ export const WebGL = () => {
         </p>
       </section>
       <section>
-        <h3>How it works?</h3>
+        <h3>How it Works?</h3>
         <p>
           Any object in a 3D virtual world is composed of <span>triangles</span>{" "}
           which in turn are composed of <span>3 vertices</span>.

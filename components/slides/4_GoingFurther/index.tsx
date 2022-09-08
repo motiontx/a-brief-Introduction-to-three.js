@@ -126,7 +126,7 @@ export const GoingFurther = () => {
         <h2>🏃 Going Further 🏃</h2>
       </section>
       <section>
-        <h3>Let&apos;s update some things</h3>
+        <h3>Let&apos;s Update Some Things</h3>
         <p>
           <Link href="https://en.wikipedia.org/wiki/Physically_based_rendering">
             Physically based rendering (PBR)
@@ -157,7 +157,7 @@ export const GoingFurther = () => {
         <h3>Let&apos;s add some lights</h3>
       </section>
       <section>
-        <h3>💡 Adding a source of light</h3>
+        <h3>💡 Adding a Source of Light</h3>
         <Double imageUrl="assets/images/light.jpeg" imageWidth={550}>
           <h5>Some built-in lights:</h5>
           <ul>
@@ -208,7 +208,7 @@ export const GoingFurther = () => {
         </Double>
       </section>
       <section>
-        <h3>Activating cast shadows</h3>
+        <h3>Activating Cast Shadows</h3>
         <h5>1. We activate the shadow maps on the renderer</h5>
         <Code code={shadowRenderCode} />
         <h5>2. Then we decide wich lights will cast shadows.</h5>
@@ -224,7 +224,7 @@ export const GoingFurther = () => {
         <Example experience="Shadows" />
       </section>
       <section>
-        <h3>Adding an environment map</h3>
+        <h3>Adding an Environment Map</h3>
         <img src="assets/images/environment.png" width={700} />
       </section>
       <section>

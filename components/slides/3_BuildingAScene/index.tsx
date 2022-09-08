@@ -120,7 +120,7 @@ export const BuildingAScene = () => {
         <Code code={sceneCode} />
       </section>
       <section>
-        <h3>🎥 Adding a camera</h3>
+        <h3>🎥 Adding a Camera</h3>
         <Double imageUrl="assets/images/camera.jpeg" imageWidth={1700}>
           <h5>Perspective camera</h5>
           <p>
@@ -220,11 +220,11 @@ export const BuildingAScene = () => {
         <Code code={materialCode} />
       </section>
       <section>
-        <h5>Putting all together</h5>
+        <h5>Putting all Together</h5>
         <Code code={meshCode} />
       </section>
       <section>
-        <h3>🖼 Render the scene</h3>
+        <h3>🖼 Render the Scene</h3>
         <Double imageUrl="assets/images/render.png" imageWidth={1800}>
           <p>The renderer&apos;s job is to do the render. 😉</p>
           <p>
@@ -239,7 +239,7 @@ export const BuildingAScene = () => {
         <Code code={renderLoopCode} />
       </section>
       <section>
-        <h3>Full code</h3>
+        <h3>Full Code</h3>
         <Code code={fullCode} />
       </section>
       <section>

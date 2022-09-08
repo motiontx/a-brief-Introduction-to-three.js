@@ -83,7 +83,7 @@ export const AdvancedTechniques = () => {
         <Example experience="WiredFlag" />
       </section>
       <section>
-        <h6>Example of a custom vertex shader</h6>
+        <h6>Example of a Custom Vertex Shader</h6>
         <Code code={vertexShaderCode} />
       </section>
       <section>
@@ -99,7 +99,7 @@ export const AdvancedTechniques = () => {
         </p>
       </section>
       <section>
-        <h6>Example of a custom fragment shader</h6>
+        <h6>Example of a Custom Fragment Shader</h6>
         <Code code={fragmentShaderCode} />
       </section>
       <section>
